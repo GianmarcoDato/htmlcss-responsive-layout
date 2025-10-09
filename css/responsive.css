@@ -10,26 +10,39 @@
     }
 
     .recipe-origin{
-        display: inline    }
+        display: inline   
+     }
 
     .recipe-title{
 
         font-size: 20px;
-        
+    
     }
 
-  ul{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+     ul{
+
+    display: flex;
+    flex-wrap: wrap;
     
   }
+    .quick-notes li{
+    width: 33%;
+  }
 
- .btn{
-    font-size: 30px;
+    .btn{
+    padding: 10px 50px;
  }
 
- .ads{
+   .ads{
     display: block;
  }
 
-}
+.presentation img{
+    display: inline;
+    float: left;
+    margin-right: 10px;
+ }
+
+ 
+} 
+/* Modalità tablet END */
