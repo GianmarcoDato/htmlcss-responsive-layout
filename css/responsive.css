@@ -3,7 +3,7 @@
 @media screen and (min-width: 770px) {
     #topbar{
         justify-content: flex-start
-    }
+}
 
     main{
         padding: 40px;
@@ -52,34 +52,53 @@
 @media screen and (min-width: 1024px) {
 
   .recipe-title{
+  font-size: 35px; 
+}
 
-        font-size: 35px;
-     }
-
-     ul{
-      display:block;
-    list-style-type: style type disc;;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    padding-inline-start: 40px;
-    unicode-bidi: isolate;
-    ;
-     }
+  ul{
+  display:block;
+  list-style-type: style type disc;;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  padding-inline-start: 40px;
+  unicode-bidi: isolate;
+    
+}
    
-    .social-networks .label {
+  .social-networks .label {
 	display:block;
 }
 
-footer{
+  footer{
   flex-direction: row;
   display: flex;
   justify-content: space-between;
   
 }
 
-
-
- }
+}
 /* Modalità desktop END */
 
+/* Modalità Large Mobile */
 
+@media screen and (min-width: 576px) and (max-width:  768px) {
+
+ .presentation img{
+    
+     float: left;
+     margin-right: 10px; 
+ }
+  
+ .social-networks .label {
+	   display:none;
+}
+ 
+ .btn{
+    padding: 5px 30px;
+ }
+
+ 
+
+}
+
+/* Modalità Large Mobile  END*/
